@@ -19,4 +19,12 @@ const revColors = [];
 for(let color of colors) {
     revColors.unshift(color);
 }
-console.log(revColors);
+// console.log(revColors);
+
+// using 'for' looping method for reverse an array
+const reverseColors = [];
+for(let i = 0; i < colors.length; i++) {
+    const color = colors[i];
+    reverseColors.unshift(color);
+}
+console.log(reverseColors);
